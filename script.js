@@ -1,7 +1,7 @@
 /* =========================================
    CẤU HÌNH API
 ========================================= */
-const GITHUB_USERNAME = 'hanhercales'; 
+const GITHUB_USERNAME = 'hanpierrot'; 
 const REPO_NAME = 'Blog';            
 const API_URL = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/issues?creator=${GITHUB_USERNAME}&state=open&sort=created&direction=asc`;
 
